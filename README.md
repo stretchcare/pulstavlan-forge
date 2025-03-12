@@ -1,6 +1,10 @@
 # Pulstavlan Windows Client
 This is an open repository containing installation files for Pulstavlan Windows client. This client ensures a good touch fullscreen experience.
-We provide both an auto-update version and enterprise installation version.
+We provide both an auto-update version and a version for enterprise installation.
+
+[The latest release can be found here](https://github.com/stretchcare/pulstavlan-forge/releases/latest)
+Pulstavlan-[version].Setup.exe
+Pulstavlan.msi
 
 ## PULSTAVLAN_URL environment variable
 Set the PULSTAVLAN_URL environment variable on all machines running the application for example using Group Policy Objects.
@@ -29,4 +33,11 @@ This version will automatically download the latest version whenever available a
 | Ctrl+F5      | Reload page              |
 | Esc          | Exit application         |
 | Ctrl+Shift+I | Open developer console   |
+
+# Machine requirements on startup
+On startup a machine check will provide a warning if the requirements are not met:
+- The resolution must be 4K (3840x2160)
+- The refresh rate must be 60Hz
+
+It is still possible to continue but it is strongly recommended to meet the specifications above.
 
