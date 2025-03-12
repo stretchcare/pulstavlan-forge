@@ -35,6 +35,7 @@ This version will automatically download the latest version whenever available a
 # Machine requirements on startup
 On startup a machine check will provide a warning if the requirements are not met:
 - The resolution must be 4K (3840x2160)
+- Scale must be set to 100% (Do not follow the Windows recommendation, always set 100%)
 - The refresh rate must be 60Hz
 
 It is still possible to continue but it is strongly recommended to meet the specifications above.
