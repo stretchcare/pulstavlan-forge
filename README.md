@@ -3,8 +3,6 @@ This is an open repository containing installation files for Pulstavlan Windows 
 We provide both an auto-update version and a version for enterprise installation.
 
 [The latest release can be found here](https://github.com/stretchcare/pulstavlan-forge/releases/latest)
-Pulstavlan-[version].Setup.exe
-Pulstavlan.msi
 
 ## PULSTAVLAN_URL environment variable
 Set the PULSTAVLAN_URL environment variable on all machines running the application for example using Group Policy Objects.
