@@ -1,5 +1,5 @@
-# Pulstavlan Windows Client
-This is an open repository containing installation files for Pulstavlan Windows client. This client ensures a good touch fullscreen experience.
+# Pulstavlan Windows Application
+This is an open repository containing installation files for Pulstavlan Windows Application. This client ensures a good touch fullscreen experience.
 We provide both an auto-update version and a version for enterprise installation.
 
 [The latest release can be found here](https://github.com/stretchcare/pulstavlan-forge/releases/latest)
